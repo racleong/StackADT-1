@@ -22,7 +22,8 @@ public class ArrayListStack<E> implements StackADT<E>
      * Removes the object at the top of the stack and returns that object as the value.
      */
     public E pop(){
-      return this.stack.remove(this.stack.size() -1);
+        //Complete method body...
+        return this.stack.remove(this.stack.size() -1);
     }
 
     /**
