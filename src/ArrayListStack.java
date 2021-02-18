@@ -15,6 +15,7 @@ public class ArrayListStack<E> implements StackADT<E>
      * The constructor creates an ArrayList object and stores it to the data field.
      */
     public ArrayListStack(){
+
         stack = new ArrayList<E>();
     }
 
@@ -23,7 +24,7 @@ public class ArrayListStack<E> implements StackADT<E>
      */
     public E pop(){
         //Complete method body...
-            return this.stack.remove(this.stack.size() -1);
+        return this.stack.remove(this.stack.size() -1);
     }
 
     /**
